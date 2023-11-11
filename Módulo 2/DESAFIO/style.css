@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Finish;
+    src: url('arquivos/fontes/fFinish.ttf') format('truetype');
+}
+@font-face {
+    font-family: Idroid;
+    src: url('arquivos/fontes/idroid.otf') format('opentype');
+}
+
+
+:root{  /*Pode executar variáveis*/
+    --cor0: #3BD27F;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84E1AD;
+    margin: 0px;
+}
+p{
+    line-height: 2em;
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+main p{
+    text-indent: 30px;
+}
+
+p#cabeçalho{
+    text-align: center;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.445);
+}
+
+header{
+    background-image: linear-gradient(to bottom, #3BD27F, #1A5C38);
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+h1#title{
+    font-family: 'Finish';
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.445);
+}
+nav{
+    text-align: left;
+    margin-bottom: 0px;
+}
+button{
+    background: none;
+    border: none;
+    color: white;
+    padding: 8px;
+    margin-left: 10px;
+    font-size: 1em;
+    font-weight: 700;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #2AA965;
+    border-radius: 3px;
+    transition: background-color 0.6s ease;
+    color: #133123;
+}
+
+article{
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+article > h1{
+    font-family: 'Idroid';   
+    color: #133123;
+    font-size: 2em;
+}
+h2{
+    font-family: 'Idroid';
+    color: #133123;
+    background-image: linear-gradient(to right, #95E5B6, white);
+    
+}
+
+strong{
+    color: #1b4733;
+}
+
+article a{
+    text-decoration: none;
+    font-weight: bold;
+    color:#133123;
+    background-color: #37df85;
+    padding: 2px 6px;
+}
+
+article a:hover{
+    text-decoration: underline;
+    color: #173b2a;
+}
+
+div#imgs{
+    text-align: center;
+}
+div#video{
+    
+    background-color: #1A5C38;
+   padding: 20px;
+   margin-left: -10px;
+   margin-right: -10px;
+   position: relative;
+   padding-bottom: 59%;
+}
+
+div#video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height:90%;
+}
+
+aside{
+    background-color: #C5EBD6;
+       padding: 5px;
+    border-radius:0px 0px 10px 10px;
+}
+div#cabeça{
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    background-color: #133123;
+    padding: 5px;
+}
+ul{
+    columns: 2;
+}
+footer{
+    background-color: #1A5C38;
+    color: white;
+    margin-bottom: 0px;
+}
+footer > p{
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+   
+

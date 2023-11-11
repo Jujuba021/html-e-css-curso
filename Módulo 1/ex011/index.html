@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em dispositivos diferentes ou simplesmente aumente e diminua o tamanho de seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/foto_p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/foto_m.png" type="image/png">
+        <img src="Imagens/foto_g.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo áudios</h1>
+    <p>Reproduzindo áudios em HTML 5</p>
+    <audio preload="metadata" controls loop>
+        <source src="midia/a-minha-conta-do-lolzin.mp3" type="audio/mpeg">  
+        <source src="midia/ai_minha_canela.ogg" type="audio/ogg">
+        <source src="midia/sound_effect_goofy_ah_2.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir audio</p>
+        <a href="midia/sound_effect_goofy_ah_2.mp3">Clique aqui para baixar o arquivo MP3.</a>
+    </audio>
+</body>
+</html> 

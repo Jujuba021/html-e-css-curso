@@ -1,0 +1,12 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(165, 165, 165);
+    display: inline-block;
+    text-align: center;
+    line-height: 200px;
+    border: 1px solid black;
+}
+div:hover{
+    background-color: chartreuse;
+}
